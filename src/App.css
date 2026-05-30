@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center layout */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: purple;
+}
+
+/* Quote card */
+.card {
+  width: 360px;
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Quote symbol */
+.quote-mark {
+  font-size: 50px;
+  margin: 0;
+  color: #764ba2;
+}
+
+/* Quote text */
+.quote-text {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Author */
+.quote-author {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #764ba2;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5a3b91;
+  transform: scale(1.05);
+}
